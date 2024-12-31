@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Qesz</title>
+</head>
+<body>
+    <div class="container">
+        <div id="box">
+       
+            <div id="timer" class="timer">30</div>
+            <h2 id="quebox">(1) This is my question?</h2>
+            <div class="row">
+                <input id="option1" class="options" type="radio" value="a" name="Option" style="cursor: pointer" />
+                <label for="option1" style="cursor: pointer">(a) Option 1</label>
+            </div>
+            <div class="row">
+                <input id="option2" class="options" type="radio" value="b" name="Option" style="cursor: pointer" />
+                <label for="option2" style="cursor: pointer">(b) Option 2</label>
+            </div>
+            <div class="row">
+                <input id="option3" class="options" type="radio" value="c" name="Option" style="cursor: pointer" />
+                <label for="option3" style="cursor: pointer">(c) Option 3</label>
+            </div>
+            <div class="row">
+                <input id="option4" class="options" type="radio" value="d" name="Option" style="cursor: pointer" />
+                <label for="option4" style="cursor: pointer">(d) Option 4</label>
+            </div>
+            <button class="btn" id="nextButton" type="button" onclick="nextQuestion()">Next</button>
+            <button class="btn" id="submitButton" type="button" onclick="submitQuiz()" style="display:none;">Submit</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
